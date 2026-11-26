@@ -1,0 +1,123 @@
+        /* === Global Background === */
+        body {
+            background-color: #f8f9fa;
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        /* === Card Styling === */
+        .destination-card,
+        .souvenir-card {
+            background-color: #FDFBEE;
+            border: none;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom : 10px
+            margin-top : 10px
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .destination-card:hover,
+        .souvenir-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+        }
+
+        /* === Card Content === */
+        .card-title {
+            color: #0984e3;
+            font-weight: 700;
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+
+        .card-subtitle {
+            font-style: italic;
+            color: #636e72;
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+        }
+
+        .card-text {
+            color: #2d3436;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+       /* === Navbar === */
+       .navbar {
+           position: sticky;
+           top: 0;
+           z-index: 1000;
+           backdrop-filter: blur(10px);
+           background-color: rgba(13, 110, 253, 0.85);
+           border-bottom-left-radius: 12px;
+           border-bottom-right-radius: 12px;
+           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+           transition: background-color 0.3s ease;
+       }
+
+       .navbar-brand {
+           font-weight: bold;
+           letter-spacing: 1px;
+           font-size: 1.3rem;
+       }
+
+       .nav-link {
+           font-weight: 500;
+           transition: color 0.3s ease;
+       }
+
+       .nav-link:hover {
+           color: #00FFDE;
+       }
+
+       /* === Button Explore === */
+       .btn-explore {
+           margin-top: 25px;
+           padding: 10px 25px;
+           font-size: 1rem;
+       }
+
+       /* === Button Glow === */
+       .btn-glow {
+           background-color: #00FFDE;
+           color: #000;
+           font-weight: bold;
+           border: none;
+           padding: 10px 25px;
+           border-radius: 8px;
+           box-shadow: 0 0 15px rgba(0, 255, 222, 0.6);
+           transition: all 0.3s ease-in-out;
+       }
+
+       .btn-glow:hover {
+           box-shadow: 0 0 25px rgba(0, 255, 222, 0.9), 0 0 40px rgba(0, 255, 222, 0.6);
+           transform: scale(1.05);
+           background-color: #00e6c5;
+           color: #000;
+       }
+
+       /* === Carousel === */
+       .carousel img {
+           height: 400px;
+           object-fit: cover;
+       }
+
+       /* === Footer === */
+       .custom-footer {
+           background-color: #48A6A7;
+           color: white;
+           padding: 10px;
+           text-align: center;
+           border-top-left-radius: 12px;
+           border-top-right-radius: 12px;
+           box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.2);
+           transition: all 0.3s ease-in-out;
+       }
+
+       .custom-footer:hover {
+           box-shadow: 0 -6px 20px rgba(72, 166, 167, 0.6);
+           background-color: #3d999a;
+       }
